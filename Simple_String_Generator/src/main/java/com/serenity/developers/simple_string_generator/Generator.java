@@ -7,7 +7,7 @@ public class Generator {
     public String generated;
     public int numOfString = 1;
 
-    private void generateLettersUppercase(int numOfString) {
+    public String generateLettersUppercase(int numOfString) {
         String useString = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
         StringBuilder stringBuilder = new StringBuilder();
         Random r = new Random();
@@ -16,6 +16,7 @@ public class Generator {
             stringBuilder.append(useString.charAt(index));
         }
         generated = stringBuilder.toString();
+        return generated;
     }
 
     private void generateLettersLowercase(int numOfString) {
