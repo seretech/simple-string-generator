@@ -1,0 +1,3 @@
+rootProject.name = "Simple String Generator"
+include ':app'
+include ':Simple_String_Generator'
