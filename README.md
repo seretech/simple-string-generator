@@ -16,8 +16,8 @@ dependencies {
 ```
 # Usage
 ```
+//Generate random strings from a-z
 Generator generator = new Generator();
-Generate random strings from a-z
 String aa = generator.generateLettersLowercase(numberofStringToGenerate);
 ```
 
