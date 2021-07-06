@@ -11,7 +11,7 @@ repositories {
 Add the following dependency in your app's build.gradle
 ```
 dependencies {
-      implementation 'com.github.seretech:simple-string-generator:1.1.0'
+      implementation 'com.github.seretech:simple-string-generator:1.1.1'
 }
 ```
 # Usage
