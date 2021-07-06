@@ -5,7 +5,6 @@ import java.util.Random;
 public class Generator {
 
     public String generated;
-    public int numOfString = 1;
 
     public String generateLettersUppercase(int numOfString) {
         String useString = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -93,6 +92,18 @@ public class Generator {
 
     public String generateNumbersSpecials(int numOfString) {
         String useString = "1234567890!@#$%^&*_-+";
+        StringBuilder stringBuilder = new StringBuilder();
+        Random r = new Random();
+        while (stringBuilder.length() < numOfString) {
+            int index = (int) (r.nextFloat() * useString.length());
+            stringBuilder.append(useString.charAt(index));
+        }
+        generated = stringBuilder.toString();
+        return generated;
+    }
+
+    public String generateNumbers(int numOfString) {
+        String useString = "1234567890";
         StringBuilder stringBuilder = new StringBuilder();
         Random r = new Random();
         while (stringBuilder.length() < numOfString) {
