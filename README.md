@@ -47,10 +47,16 @@ Generate random strings from a-z, A-Z and 0-9
 generator.generateLettersNumbers()
 ```
 
-Generate random strings from a-z, A-Z,0-9 and special characters such as "!@#$%^&*_-+"
+Generate random strings from a-z, A-Z and special characters such as "!@#$%^&*_-+"
 ```
 generator.generateLettersSpecials()
 ```
+
+Generate random strings from a-z, A-Z,0-9 and special characters such as "!@#$%^&*_-+"
+```
+generator.generateAll()
+```
+
 Generate custom Strings specify the strings to generate from can include letters, numbers and special charaters
 ```
 generator.generateCustomString(numberofStringToGenerate,"a,b,c,d,e,f,g,h,i,j")
