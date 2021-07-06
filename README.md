@@ -16,40 +16,39 @@ dependencies {
 ```
 #Usage
 Generator generator = new Generator();
-//Generate random strings from a-z
+Generate random strings from a-z
 String aa = generator.generateLettersLowercase(numberofStringToGenerate);
-
 #Other Usage Methods
-//Generate random strings from A-Z
+Generate random strings from A-Z
 ```
 generator.generateLettersLowercase()
 ```
 
-//Generate random strings from 0-9
+Generate random strings from 0-9
 ```
 generator.generateLettersNumbers()
 ```
 
-//Generate random strings from A-Z and 0-9
+Generate random strings from A-Z and 0-9
 ```
 generator.generateLettersUppercaseNumbers()
 ```
 
-//Generate random strings from a-z and 0-9
+Generate random strings from a-z and 0-9
 ```
 generator.generateLettersLowercaseNumbers()
 ```
 
-//Generate random strings from a-z, A-Z and 0-9
+Generate random strings from a-z, A-Z and 0-9
 ```
 generator.generateLettersNumbers()
 ```
 
-//Generate random strings from a-z, A-Z,0-9 and special characters such as "!@#$%^&*_-+"
+Generate random strings from a-z, A-Z,0-9 and special characters such as "!@#$%^&*_-+"
 ```
 generator.generateLettersSpecials()
 ```
-//Generate custom Strings specify the strings to generate from can include letters, numbers and special charaters
+Generate custom Strings specify the strings to generate from can include letters, numbers and special charaters
 ```
 generator.generateCustomString(numberofStringToGenerate,"a,b,c,d,e,f,g,h,i,j")
 ```
